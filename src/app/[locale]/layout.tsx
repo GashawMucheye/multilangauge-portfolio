@@ -1,6 +1,8 @@
+import Header from '@/components/header';
 import { routing } from '@/src/i18n/routing';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
+import './globals.css';
 
 export default async function LocaleLayout({
   children,
@@ -18,7 +20,13 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <div className='flex min-h-screen flex-col'>
+            <Header />
+            <main className='flex-1'>{children}</main>
+            <footer className='bg-red-500'>footer</footer>
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

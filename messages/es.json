@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "services": "Servicios",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "aiReview": "Revisión IA",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "LinguaFolio",
+    "subtitle": "Creando experiencias digitales que hablan todos los idiomas. Explora mi trabajo en un mundo sin barreras lingüísticas.",
+    "cta": "Ver Mi Trabajo",
+    "certificateCta": "Ver Mi Certificado"
+  },
+  "projects": {
+    "title": "Mi Portafolio",
+    "description": "Una selección de proyectos donde la creatividad se encuentra con el código, entregados en cualquier idioma."
+  },
+  "review": {
+    "badge": "Con IA",
+    "title": "Revisión de Idioma con IA",
+    "description": "Asegúrate de que tu mensaje sea perfecto en cualquier idioma. Utiliza nuestra herramienta de IA para revisar tu contenido en cuanto a precisión lingüística, adecuación cultural y tono consistente.",
+    "dialogTitle": "Revise su contenido",
+    "dialogDescription": "Seleccione un idioma e ingrese el texto que desea revisar. Nuestra IA le proporcionará comentarios y sugerencias.",
+    "languageLabel": "Idioma",
+    "contentLabel": "Contenido a Revisar",
+    "contentPlaceholder": "Ingrese su texto aquí...",
+    "submitButton": "Revisar con IA",
+    "loading": "La IA está pensando...",
+    "reviewedContentTitle": "Contenido Revisado",
+    "feedbackTitle": "Comentarios"
+  },
+  "contact": {
+    "badge": "Contáctame",
+    "title": "Contacto",
+    "description": "¿Tienes un proyecto en mente o solo quieres saludar? ¡Envíame un mensaje!",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu Nombre",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu.email@ejemplo.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Tu mensaje...",
+    "submitButton": "Enviar Mensaje",
+    "successToast": "¡Mensaje enviado con éxito!",
+    "errorToast": "Error al enviar el mensaje."
+  },
+  "footer": {
+    "copy": "Todos los derechos reservados."
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "p1": "Soy un desarrollador apasionado con un amor por la creación de aplicaciones web hermosas y funcionales. Mi viaje al mundo del código comenzó con un simple \"¡Hola, Mundo!\" y desde entonces se ha convertido en una carrera de pleno derecho.",
+    "p2": "Con experiencia tanto en diseño como en desarrollo, me esfuerzo por crear experiencias que no solo sean fáciles de usar, sino también estéticamente agradables. Creo que un gran diseño y un código limpio van de la mano.",
+    "image_alt": "Una foto del dueño del sitio"
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Ofrezco una gama de servicios para ayudarlo a dar vida a sus proyectos digitales.",
+    "items": [
+      {
+        "title": "Desarrollo Web",
+        "description": "Construyendo sitios web y aplicaciones web receptivos, rápidos y seguros utilizando las últimas technologies."
+      },
+      {
+        "title": "Diseño UI/UX",
+        "description": "Creando interfaces de usuario intuitivas y atractivas que brindan una experiencia de usuario perfecta."
+      },
+      {
+        "title": "Integración de IA",
+        "description": "Aprovechando el poder de la inteligencia artificial para crear funciones inteligentes y automatizar procesos."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "description": "Una muestra de las tecnologías y herramientas que uso para construir experiencias web modernas."
+  },
+  "accessibility": {
+    "menuLabel": "Menú de Accesibilidad",
+    "menuOptions": "Opciones de Accesibilidad",
+    "resetLabel": "Restablecer todas las opciones de accesibilidad",
+    "fontSize": {
+      "label": "Tamaño de Fuente",
+      "decrease": "Disminuir tamaño de fuente",
+      "increase": "Aumentar tamaño de fuente",
+      "reset": "Restablecer tamaño de fuente"
+    },
+    "highContrast": "Contraste Alto",
+    "letterSpacing": {
+      "label": "Espaciado entre Letras",
+      "decrease": "Disminuir espaciado entre letras",
+      "increase": "Aumentar espaciado entre letras",
+      "reset": "Restablecer espaciado entre letras"
+    },
+    "wordSpacing": {
+      "label": "Espaciado entre Palabras",
+      "decrease": "Disminuir espaciado entre palabras",
+      "increase": "Aumentar espaciado entre palabras",
+      "reset": "Restablecer espaciado entre palabras"
+    },
+    "lineHeight": {
+      "label": "Altura de Línea",
+      "decrease": "Disminuir altura de línea",
+      "increase": "Aumentar altura de línea",
+      "reset": "Restablecer altura de línea"
+    },
+    "highlightLinks": "Resaltar Enlaces"
+  },
+  "projectItems": [
+    {
+      "id": 1,
+      "title": "Plataforma de E-commerce",
+      "description": "Un sitio de comercio electrónico totalmente receptivo y multilingüe creado con Next.js e integración de Stripe.",
+      "tags": ["Next.js", "React", "Stripe"]
+    },
+    {
+      "id": 2,
+      "title": "Visualizador de Productos 3D",
+      "description": "Una aplicación 3D interactiva que utiliza Three.js para permitir a los usuarios personalizar y ver productos en tiempo real.",
+      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+    },
+    {
+      "id": 3,
+      "title": "App de Aprendizaje de Idiomas",
+      "description": "Una aplicación web de prioridad móvil diseñada para que el aprendizaje de idiomas sea divertido y accesible, con comentarios impulsados por IA.",
+      "tags": ["GenAI", "React", "Firebase"]
+    },
+    {
+      "id": 4,
+      "title": "Editor Colaborativo",
+      "description": "Un editor de texto en tiempo real que permite a varios usuarios colaborar en documentos simultáneamente, utilizando Firebase para la sincronización.",
+      "tags": ["Firebase", "Tiempo Real", "TypeScript"]
+    },
+    {
+      "id": 5,
+      "title": "Panel Financiero",
+      "description": "Un panel de visualización de datos que muestra las tendencias del mercado financiero con gráficos interactivos, impulsado por Recharts.",
+      "tags": ["Visualización", "Recharts", "Next.js"]
+    },
+    {
+      "id": 6,
+      "title": "Panel de Análisis de Marketing",
+      "description": "Un panel completo para visualizar datos de campañas de marketing, que proporciona información sobre el rendimiento y el ROI.",
+      "tags": ["Visualización", "React", "Shadcn UI"]
+    }
+  ]
+}

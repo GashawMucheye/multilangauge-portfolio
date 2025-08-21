@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "services": "Services",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "aiReview": "Revue IA",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "LinguaFolio",
+    "subtitle": "Créer des expériences numériques qui parlent toutes les langues. Explorez mon travail dans un monde sans barrières linguistiques.",
+    "cta": "Voir Mon Travail",
+    "certificateCta": "Voir Mon Certificat"
+  },
+  "projects": {
+    "title": "Mon Portfolio",
+    "description": "Une sélection de projets où la créativité rencontre le code, livrés dans toutes les langues."
+  },
+  "review": {
+    "badge": "Propulsé par lIA",
+    "title": "Revue linguistique par IA",
+    "description": "Assurez-vous que votre message est parfait dans toutes les langues. Utilisez notre outil dIA pour réviser votre contenu pour la précision linguistique, l'adéquation culturelle et un ton cohérent.",
+    "dialogTitle": "Révisez votre contenu",
+    "dialogDescription": "Sélectionnez une langue et entrez le texte que vous souhaitez réviser. Notre IA vous fournira des commentaires et des suggestions.",
+    "languageLabel": "Langue",
+    "contentLabel": "Contenu à réviser",
+    "contentPlaceholder": "Entrez votre texte ici...",
+    "submitButton": "Réviser avec lIA",
+    "loading": "L'IA réfléchit...",
+    "reviewedContentTitle": "Contenu révisé",
+    "feedbackTitle": "Commentaires"
+  },
+  "contact": {
+    "badge": "Contactez-moi",
+    "title": "Contact",
+    "description": "Vous avez un projet en tête ou vous voulez simplement dire bonjour ? Envoyez-moi un message !",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre Nom",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Votre message...",
+    "submitButton": "Envoyer le Message",
+    "successToast": "Message envoyé avec succès !",
+    "errorToast": "Échec de lenvoi du message."
+  },
+  "footer": {
+    "copy": "Tous droits réservés."
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "p1": "Je suis un développeur passionné qui aime créer des applications web belles et fonctionnelles. Mon voyage dans le monde du code a commencé par un simple \"Bonjour le monde !\" et est depuis devenu une carrière à part entière.",
+    "p2": "Avec une formation en design et en développement, je m'efforce de créer des expériences non seulement conviviales, mais aussi esthétiques. Je crois qu'un bon design et un code propre vont de pair.",
+    "image_alt": "Une photo du propriétaire du site"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Je propose une gamme de services pour vous aider à donner vie à vos projets numériques.",
+    "items": [
+      {
+        "title": "Développement Web",
+        "description": "Création de sites web et d'applications web réactifs, rapides et sécurisés à l'aide des dernières technologies."
+      },
+      {
+        "title": "Conception UI/UX",
+        "description": "Création d'interfaces utilisateur intuitives et attrayantes qui offrent une expérience utilisateur transparente."
+      },
+      {
+        "title": "Intégration de l'IA",
+        "description": "Exploiter la puissance de l'intelligence artificielle pour créer des fonctionnalités intelligentes et automatiser les processus."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "description": "Une vitrine des technologies et des outils que j'utilise pour créer des expériences web modernes."
+  },
+  "accessibility": {
+    "menuLabel": "Menu d'Accessibilité",
+    "menuOptions": "Options d'Accessibilité",
+    "resetLabel": "Réinitialiser toutes les options d'accessibilité",
+    "fontSize": {
+      "label": "Taille de Police",
+      "decrease": "Diminuer la taille de la police",
+      "increase": "Augmenter la taille de la police",
+      "reset": "Réinitialiser la taille de la police"
+    },
+    "highContrast": "Contraste Élevé",
+    "letterSpacing": {
+      "label": "Espacement des Lettres",
+      "decrease": "Diminuer l'espacement des lettres",
+      "increase": "Augmenter l'espacement des lettres",
+      "reset": "Réinitialiser l'espacement des lettres"
+    },
+    "wordSpacing": {
+      "label": "Espacement des Mots",
+      "decrease": "Diminuer l'espacement des mots",
+      "increase": "Augmenter l'espacement des mots",
+      "reset": "Réinitialiser l'espacement des mots"
+    },
+    "lineHeight": {
+      "label": "Hauteur de Ligne",
+      "decrease": "Diminuer la hauteur de ligne",
+      "increase": "Augmenter la hauteur de ligne",
+      "reset": "Réinitialiser la hauteur de ligne"
+    },
+    "highlightLinks": "Surligner les Liens"
+  },
+  "projectItems": [
+    {
+      "id": 1,
+      "title": "Plateforme E-commerce",
+      "description": "Un site e-commerce entièrement réactif et multilingue construit avec Next.js et l'intégration de Stripe.",
+      "tags": ["Next.js", "React", "Stripe"]
+    },
+    {
+      "id": 2,
+      "title": "Visualiseur de Produits 3D",
+      "description": "Une application 3D interactive utilisant Three.js pour permettre aux utilisateurs de personnaliser et de visualiser les produits en temps réel.",
+      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+    },
+    {
+      "id": 3,
+      "title": "Application d'apprentissage des langues",
+      "description": "Une application web mobile-first conçue pour rendre l'apprentissage des langues amusant et accessible, avec des commentaires alimentés par l'IA.",
+      "tags": ["GenAI", "React", "Firebase"]
+    },
+    {
+      "id": 4,
+      "title": "Éditeur Collaboratif",
+      "description": "Un éditeur de texte en temps réel permettant à plusieurs utilisateurs de collaborer simultanément sur des documents, en utilisant Firebase pour la synchronisation.",
+      "tags": ["Firebase", "Temps Réel", "TypeScript"]
+    },
+    {
+      "id": 5,
+      "title": "Tableau de Bord Financier",
+      "description": "Un tableau de bord de visualisation de données affichant les tendances du marché financier avec des graphiques interactifs, optimisé par Recharts.",
+      "tags": ["Dataviz", "Recharts", "Next.js"]
+    },
+    {
+      "id": 6,
+      "title": "Tableau de Bord dAnalyse Marketing",
+      "description": "Un tableau de bord complet pour visualiser les données des campagnes marketing, fournissant des informations sur les performances et le retour sur investissement.",
+      "tags": ["Dataviz", "React", "Shadcn UI"]
+    }
+  ]
+}

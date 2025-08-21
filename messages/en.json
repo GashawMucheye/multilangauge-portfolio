@@ -1,6 +1,148 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  }
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "skills": "Skills",
+    "projects": "Projects",
+    "aiReview": "AI Review",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "LinguaFolio",
+    "subtitle": "Crafting digital experiences that speak every language. Explore my work in a world without linguistic barriers.",
+    "cta": "View My Work",
+    "certificateCta": "View My Certificate"
+  },
+  "projects": {
+    "title": "My Portfolio",
+    "description": "A selection of projects where creativity meets code, delivered in any language."
+  },
+  "review": {
+    "badge": "AI-Powered",
+    "title": "AI Language Review",
+    "description": "Ensure your message is perfect in any language. Use our AI tool to review your content for linguistic accuracy, cultural appropriateness, and consistent tone.",
+    "dialogTitle": "Review your content",
+    "dialogDescription": "Select a language and enter the text you want to review. Our AI will provide feedback and suggestions.",
+    "languageLabel": "Language",
+    "contentLabel": "Content to Review",
+    "contentPlaceholder": "Enter your text here...",
+    "submitButton": "Review with AI",
+    "loading": "AI is thinking...",
+    "reviewedContentTitle": "Reviewed Content",
+    "feedbackTitle": "Feedback"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact Me",
+    "description": "Have a project in mind or just want to say hello? Send me a message!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your message...",
+    "submitButton": "Send Message",
+    "successToast": "Message sent successfully!",
+    "errorToast": "Failed to send message."
+  },
+  "footer": {
+    "copy": "All rights reserved."
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a passionate developer with a love for creating beautiful and functional web applications. My journey into the world of code started with a simple \"Hello, World!\" and has since grown into a full-fledged career.",
+    "p2": "With a background in both design and development, I strive to build experiences that are not only user-friendly but also aesthetically pleasing. I believe that great design and clean code go hand-in-hand.",
+    "image_alt": "A picture of the site owner"
+  },
+  "services": {
+    "title": "Services",
+    "description": "I offer a range of services to help you bring your digital projects to life.",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "Building responsive, fast, and secure websites and web applications using the latest technologies."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Creating intuitive and engaging user interfaces that provide a seamless user experience."
+      },
+      {
+        "title": "AI Integration",
+        "description": "Leveraging the power of artificial intelligence to build smart features and automate processes."
+      }
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "description": "A showcase of the technologies and tools I use to build modern web experiences."
+  },
+  "accessibility": {
+    "menuLabel": "Accessibility Menu",
+    "menuOptions": "Accessibility Options",
+    "resetLabel": "Reset all accessibility options",
+    "fontSize": {
+      "label": "Font Size",
+      "decrease": "Decrease font size",
+      "increase": "Increase font size",
+      "reset": "Reset font size"
+    },
+    "highContrast": "High Contrast",
+    "letterSpacing": {
+      "label": "Letter Spacing",
+      "decrease": "Decrease letter spacing",
+      "increase": "Increase letter spacing",
+      "reset": "Reset letter spacing"
+    },
+    "wordSpacing": {
+      "label": "Word Spacing",
+      "decrease": "Decrease word spacing",
+      "increase": "Increase word spacing",
+      "reset": "Reset word spacing"
+    },
+    "lineHeight": {
+      "label": "Line Height",
+      "decrease": "Decrease line height",
+      "increase": "Increase line height",
+      "reset": "Reset line height"
+    },
+    "highlightLinks": "Highlight Links"
+  },
+  "projectItems": [
+    {
+      "id": 1,
+      "title": "E-commerce Platform",
+      "description": "A fully responsive and multilingual e-commerce site built with Next.js and Stripe integration.",
+      "tags": ["Next.js", "React", "Stripe"]
+    },
+    {
+      "id": 2,
+      "title": "3D Product Visualizer",
+      "description": "An interactive 3D application using Three.js to allow users to customize and view products in real-time.",
+      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+    },
+    {
+      "id": 3,
+      "title": "Language Learning App",
+      "description": "A mobile-first web app designed to make language learning fun and accessible, with AI-powered feedback.",
+      "tags": ["GenAI", "React", "Firebase"]
+    },
+    {
+      "id": 4,
+      "title": "Collaborative Editor",
+      "description": "A real-time text editor allowing multiple users to collaborate on documents simultaneously, using Firebase for synchronization.",
+      "tags": ["Firebase", "Real-time", "TypeScript"]
+    },
+    {
+      "id": 5,
+      "title": "Financial Dashboard",
+      "description": "A data visualization dashboard displaying financial market trends with interactive charts and graphs, powered by Recharts.",
+      "tags": ["Data Viz", "Recharts", "Next.js"]
+    },
+    {
+      "id": 6,
+      "title": "Marketing Analytics Dashboard",
+      "description": "A comprehensive dashboard for visualizing marketing campaign data, providing insights into performance and ROI.",
+      "tags": ["Data Viz", "React", "Shadcn UI"]
+    }
+  ]
 }
