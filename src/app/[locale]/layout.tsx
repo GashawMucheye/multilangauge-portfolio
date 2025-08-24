@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { Toaster } from '@/components/ui/sonner';
 
 import './globals.css';
+import Footer from '@/components/footer';
 
 export default async function LocaleLayout({
   children,
@@ -27,7 +28,7 @@ export default async function LocaleLayout({
             <Header />
             <main className='flex-1'>{children}</main>
             <Toaster />
-            <footer className='bg-red-500'>footer</footer>
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>
