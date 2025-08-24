@@ -15,21 +15,60 @@
   },
   "projects": {
     "title": "Mi Portafolio",
-    "description": "Una selección de proyectos donde la creatividad se encuentra con el código, entregados en cualquier idioma."
+    "description": "Una selección de proyectos donde la creatividad se encuentra con el código, entregados en cualquier idioma.",
+    "projectItems": [
+      {
+        "id": 1,
+        "title": "Plataforma de E-commerce",
+        "description": "Un sitio de comercio electrónico totalmente receptivo y multilingüe creado con Next.js e integración de Stripe.",
+        "tags": ["Next.js", "React", "Stripe"]
+      },
+      {
+        "id": 2,
+        "title": "Visualizador de Productos 3D",
+        "description": "Una aplicación 3D interactiva que utiliza Three.js para permitir a los usuarios personalizar y ver productos en tiempo real.",
+        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+      },
+      {
+        "id": 3,
+        "title": "App de Aprendizaje de Idiomas",
+        "description": "Una aplicación web de prioridad móvil diseñada para que el aprendizaje de idiomas sea divertido y accesible, con comentarios impulsados por IA.",
+        "tags": ["GenAI", "React", "Firebase"]
+      },
+      {
+        "id": 4,
+        "title": "Editor Colaborativo",
+        "description": "Un editor de texto en tiempo real que permite a varios usuarios colaborar en documentos simultáneamente, utilizando Firebase para la sincronización.",
+        "tags": ["Firebase", "Tiempo Real", "TypeScript"]
+      },
+      {
+        "id": 5,
+        "title": "Panel Financiero",
+        "description": "Un panel de visualización de datos que muestra las tendencias del mercado financiero con gráficos interactivos, impulsado por Recharts.",
+        "tags": ["Visualización", "Recharts", "Next.js"]
+      },
+      {
+        "id": 6,
+        "title": "Panel de Análisis de Marketing",
+        "description": "Un panel completo para visualizar datos de campañas de marketing, que proporciona información sobre el rendimiento y el ROI.",
+        "tags": ["Visualización", "React", "Shadcn UI"]
+      }
+    ]
   },
   "review": {
-    "badge": "Con IA",
-    "title": "Revisión de Idioma con IA",
-    "description": "Asegúrate de que tu mensaje sea perfecto en cualquier idioma. Utiliza nuestra herramienta de IA para revisar tu contenido en cuanto a precisión lingüística, adecuación cultural y tono consistente.",
-    "dialogTitle": "Revise su contenido",
-    "dialogDescription": "Seleccione un idioma e ingrese el texto que desea revisar. Nuestra IA le proporcionará comentarios y sugerencias.",
+    "badge": "Impulsado por IA",
+    "title": "Revisión de Idiomas con IA",
+    "description": "Asegura que tu mensaje sea perfecto en cualquier idioma. Nuestra herramienta de IA revisa tu contenido para garantizar precisión lingüística, adecuación cultural y tono consistente.",
+    "dialogTitle": "Revisa tu contenido",
+    "dialogDescription": "Selecciona un idioma e ingresa el texto que deseas revisar. Nuestra IA te dará retroalimentación y sugerencias.",
     "languageLabel": "Idioma",
     "contentLabel": "Contenido a Revisar",
-    "contentPlaceholder": "Ingrese su texto aquí...",
+    "contentPlaceholder": "Escribe tu texto aquí...",
     "submitButton": "Revisar con IA",
     "loading": "La IA está pensando...",
     "reviewedContentTitle": "Contenido Revisado",
-    "feedbackTitle": "Comentarios"
+    "feedbackTitle": "Comentarios",
+    "content": "Esta es la revisión en inglés."
   },
   "contact": {
     "badge": "Contáctame",
@@ -106,43 +145,5 @@
       "reset": "Restablecer altura de línea"
     },
     "highlightLinks": "Resaltar Enlaces"
-  },
-  "projectItems": [
-    {
-      "id": 1,
-      "title": "Plataforma de E-commerce",
-      "description": "Un sitio de comercio electrónico totalmente receptivo y multilingüe creado con Next.js e integración de Stripe.",
-      "tags": ["Next.js", "React", "Stripe"]
-    },
-    {
-      "id": 2,
-      "title": "Visualizador de Productos 3D",
-      "description": "Una aplicación 3D interactiva que utiliza Three.js para permitir a los usuarios personalizar y ver productos en tiempo real.",
-      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
-    },
-    {
-      "id": 3,
-      "title": "App de Aprendizaje de Idiomas",
-      "description": "Una aplicación web de prioridad móvil diseñada para que el aprendizaje de idiomas sea divertido y accesible, con comentarios impulsados por IA.",
-      "tags": ["GenAI", "React", "Firebase"]
-    },
-    {
-      "id": 4,
-      "title": "Editor Colaborativo",
-      "description": "Un editor de texto en tiempo real que permite a varios usuarios colaborar en documentos simultáneamente, utilizando Firebase para la sincronización.",
-      "tags": ["Firebase", "Tiempo Real", "TypeScript"]
-    },
-    {
-      "id": 5,
-      "title": "Panel Financiero",
-      "description": "Un panel de visualización de datos que muestra las tendencias del mercado financiero con gráficos interactivos, impulsado por Recharts.",
-      "tags": ["Visualización", "Recharts", "Next.js"]
-    },
-    {
-      "id": 6,
-      "title": "Panel de Análisis de Marketing",
-      "description": "Un panel completo para visualizar datos de campañas de marketing, que proporciona información sobre el rendimiento y el ROI.",
-      "tags": ["Visualización", "React", "Shadcn UI"]
-    }
-  ]
+  }
 }

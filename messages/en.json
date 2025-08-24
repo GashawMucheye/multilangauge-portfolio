@@ -13,23 +13,24 @@
     "cta": "View My Work",
     "certificateCta": "View My Certificate"
   },
-  "projects": {
-    "title": "My Portfolio",
-    "description": "A selection of projects where creativity meets code, delivered in any language."
-  },
+
   "review": {
     "badge": "AI-Powered",
     "title": "AI Language Review",
     "description": "Ensure your message is perfect in any language. Use our AI tool to review your content for linguistic accuracy, cultural appropriateness, and consistent tone.",
-    "dialogTitle": "Review your content",
-    "dialogDescription": "Select a language and enter the text you want to review. Our AI will provide feedback and suggestions.",
-    "languageLabel": "Language",
-    "contentLabel": "Content to Review",
-    "contentPlaceholder": "Enter your text here...",
-    "submitButton": "Review with AI",
-    "loading": "AI is thinking...",
-    "reviewedContentTitle": "Reviewed Content",
-    "feedbackTitle": "Feedback"
+    "content": {
+      "dialogTitle": { "en": "Review your content" },
+      "dialogDescription": {
+        "en": "Select a language and enter the text you want to review. Our AI will provide feedback and suggestions."
+      },
+      "languageLabel": { "en": "Language" },
+      "contentLabel": { "en": "Content to Review" },
+      "contentPlaceholder": { "en": "Enter your text here..." },
+      "submitButton": { "en": "Review with AI" },
+      "loading": { "en": "AI is thinking..." },
+      "reviewedContentTitle": { "en": "Reviewed Content" },
+      "feedbackTitle": { "en": "Feedback" }
+    }
   },
   "contact": {
     "badge": "Get in Touch",
@@ -107,42 +108,53 @@
     },
     "highlightLinks": "Highlight Links"
   },
-  "projectItems": [
-    {
-      "id": 1,
-      "title": "E-commerce Platform",
-      "description": "A fully responsive and multilingual e-commerce site built with Next.js and Stripe integration.",
-      "tags": ["Next.js", "React", "Stripe"]
-    },
-    {
-      "id": 2,
-      "title": "3D Product Visualizer",
-      "description": "An interactive 3D application using Three.js to allow users to customize and view products in real-time.",
-      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
-    },
-    {
-      "id": 3,
-      "title": "Language Learning App",
-      "description": "A mobile-first web app designed to make language learning fun and accessible, with AI-powered feedback.",
-      "tags": ["GenAI", "React", "Firebase"]
-    },
-    {
-      "id": 4,
-      "title": "Collaborative Editor",
-      "description": "A real-time text editor allowing multiple users to collaborate on documents simultaneously, using Firebase for synchronization.",
-      "tags": ["Firebase", "Real-time", "TypeScript"]
-    },
-    {
-      "id": 5,
-      "title": "Financial Dashboard",
-      "description": "A data visualization dashboard displaying financial market trends with interactive charts and graphs, powered by Recharts.",
-      "tags": ["Data Viz", "Recharts", "Next.js"]
-    },
-    {
-      "id": 6,
-      "title": "Marketing Analytics Dashboard",
-      "description": "A comprehensive dashboard for visualizing marketing campaign data, providing insights into performance and ROI.",
-      "tags": ["Data Viz", "React", "Shadcn UI"]
-    }
-  ]
+
+  "projects": {
+    "title": "My Portfolio",
+    "description": "A selection of projects where creativity meets code, delivered in any language.",
+    "projectItems": [
+      {
+        "id": 1,
+        "image": "https://placehold.co/600x400.png",
+        "title": "E-commerce Platform",
+        "description": "A fully responsive and multilingual e-commerce site built with Next.js and Stripe integration.",
+        "tags": ["Next.js", "React", "Stripe"]
+      },
+      {
+        "id": 2,
+        "image": "https://placehold.co/600x400.png",
+        "title": "3D Product Visualizer",
+        "description": "An interactive 3D application using Three.js to allow users to customize and view products in real-time.",
+        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+      },
+      {
+        "id": 3,
+        "image": "https://placehold.co/600x400.png",
+        "title": "Language Learning App",
+        "description": "A mobile-first web app designed to make language learning fun and accessible, with AI-powered feedback.",
+        "tags": ["GenAI", "React", "Firebase"]
+      },
+      {
+        "id": 4,
+        "image": "https://placehold.co/600x400.png",
+        "title": "Collaborative Editor",
+        "description": "A real-time text editor allowing multiple users to collaborate on documents simultaneously, using Firebase for synchronization.",
+        "tags": ["Firebase", "Real-time", "TypeScript"]
+      },
+      {
+        "id": 5,
+        "image": "https://placehold.co/600x400.png",
+        "title": "Financial Dashboard",
+        "description": "A data visualization dashboard displaying financial market trends with interactive charts and graphs, powered by Recharts.",
+        "tags": ["Data Viz", "Recharts", "Next.js"]
+      },
+      {
+        "id": 6,
+        "image": "https://placehold.co/600x400.png",
+        "title": "Marketing Analytics Dashboard",
+        "description": "A comprehensive dashboard for visualizing marketing campaign data, providing insights into performance and ROI.",
+        "tags": ["Data Viz", "React", "Shadcn UI"]
+      }
+    ]
+  }
 }
