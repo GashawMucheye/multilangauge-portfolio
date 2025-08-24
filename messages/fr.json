@@ -15,7 +15,45 @@
   },
   "projects": {
     "title": "Mon Portfolio",
-    "description": "Une sélection de projets où la créativité rencontre le code, livrés dans toutes les langues."
+    "description": "Une sélection de projets où la créativité rencontre le code, livrés dans toutes les langues.",
+    "projectItems": [
+      {
+        "id": 1,
+        "title": "Plateforme E-commerce",
+        "description": "Un site e-commerce entièrement réactif et multilingue construit avec Next.js et l'intégration de Stripe.",
+        "tags": ["Next.js", "React", "Stripe"]
+      },
+      {
+        "id": 2,
+        "title": "Visualiseur de Produits 3D",
+        "description": "Une application 3D interactive utilisant Three.js pour permettre aux utilisateurs de personnaliser et de visualiser les produits en temps réel.",
+        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+      },
+      {
+        "id": 3,
+        "title": "Application d'apprentissage des langues",
+        "description": "Une application web mobile-first conçue pour rendre l'apprentissage des langues amusant et accessible, avec des commentaires alimentés par l'IA.",
+        "tags": ["GenAI", "React", "Firebase"]
+      },
+      {
+        "id": 4,
+        "title": "Éditeur Collaboratif",
+        "description": "Un éditeur de texte en temps réel permettant à plusieurs utilisateurs de collaborer simultanément sur des documents, en utilisant Firebase pour la synchronisation.",
+        "tags": ["Firebase", "Temps Réel", "TypeScript"]
+      },
+      {
+        "id": 5,
+        "title": "Tableau de Bord Financier",
+        "description": "Un tableau de bord de visualisation de données affichant les tendances du marché financier avec des graphiques interactifs, optimisé par Recharts.",
+        "tags": ["Dataviz", "Recharts", "Next.js"]
+      },
+      {
+        "id": 6,
+        "title": "Tableau de Bord dAnalyse Marketing",
+        "description": "Un tableau de bord complet pour visualiser les données des campagnes marketing, fournissant des informations sur les performances et le retour sur investissement.",
+        "tags": ["Dataviz", "React", "Shadcn UI"]
+      }
+    ]
   },
   "review": {
     "badge": "Propulsé par lIA",
@@ -29,6 +67,7 @@
     "submitButton": "Réviser avec lIA",
     "loading": "L'IA réfléchit...",
     "reviewedContentTitle": "Contenu révisé",
+    "content": "This is the English review.",
     "feedbackTitle": "Commentaires"
   },
   "contact": {
@@ -106,43 +145,5 @@
       "reset": "Réinitialiser la hauteur de ligne"
     },
     "highlightLinks": "Surligner les Liens"
-  },
-  "projectItems": [
-    {
-      "id": 1,
-      "title": "Plateforme E-commerce",
-      "description": "Un site e-commerce entièrement réactif et multilingue construit avec Next.js et l'intégration de Stripe.",
-      "tags": ["Next.js", "React", "Stripe"]
-    },
-    {
-      "id": 2,
-      "title": "Visualiseur de Produits 3D",
-      "description": "Une application 3D interactive utilisant Three.js pour permettre aux utilisateurs de personnaliser et de visualiser les produits en temps réel.",
-      "tags": ["Three.js", "TypeScript", "Shadcn UI"]
-    },
-    {
-      "id": 3,
-      "title": "Application d'apprentissage des langues",
-      "description": "Une application web mobile-first conçue pour rendre l'apprentissage des langues amusant et accessible, avec des commentaires alimentés par l'IA.",
-      "tags": ["GenAI", "React", "Firebase"]
-    },
-    {
-      "id": 4,
-      "title": "Éditeur Collaboratif",
-      "description": "Un éditeur de texte en temps réel permettant à plusieurs utilisateurs de collaborer simultanément sur des documents, en utilisant Firebase pour la synchronisation.",
-      "tags": ["Firebase", "Temps Réel", "TypeScript"]
-    },
-    {
-      "id": 5,
-      "title": "Tableau de Bord Financier",
-      "description": "Un tableau de bord de visualisation de données affichant les tendances du marché financier avec des graphiques interactifs, optimisé par Recharts.",
-      "tags": ["Dataviz", "Recharts", "Next.js"]
-    },
-    {
-      "id": 6,
-      "title": "Tableau de Bord dAnalyse Marketing",
-      "description": "Un tableau de bord complet pour visualiser les données des campagnes marketing, fournissant des informations sur les performances et le retour sur investissement.",
-      "tags": ["Dataviz", "React", "Shadcn UI"]
-    }
-  ]
+  }
 }
