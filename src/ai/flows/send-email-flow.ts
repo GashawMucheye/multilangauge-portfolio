@@ -10,7 +10,6 @@
 import { z } from 'zod';
 import * as nodemailer from 'nodemailer';
 import { ai } from '../genkit';
-import { ZodTypeAny } from 'zod/v3';
 
 const ContactEmailInputSchema = z.object({
   name: z.string(),
@@ -29,7 +28,9 @@ const sendEmailFlow = ai.defineFlow(
   {
     name: 'sendEmailFlow',
     inputSchema: ContactEmailInputSchema,
-    outputSchema: z.object({ success: z.boolean() }),
+    outputSchema: z.object({ success: z.boolean() }) as z.ZodType<{
+      success: boolean;
+    }>,
   },
   async (input) => {
     const { name, email, message } = input;
