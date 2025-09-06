@@ -16,6 +16,7 @@ import { LanguageSwitcher } from './language-switcher';
 import { Button } from './ui/button';
 import { usePathname } from '../src/i18n/navigation';
 import Link from 'next/link';
+import { ThemeSwitcher } from './theme-switcher';
 
 function Header() {
   const t = useTranslations('nav');
@@ -61,10 +62,10 @@ function Header() {
             </Button>
           ))}
           <LanguageSwitcher />
-          {/* <ThemeSwitcher /> */}
+          <ThemeSwitcher />
         </nav>
         <div className='md:hidden flex items-center gap-2'>
-          {/* <ThemeSwitcher /> */}
+          <ThemeSwitcher />
           <Sheet>
             <SheetTrigger asChild>
               <Button variant='outline' size='icon' aria-label='Open menu'>

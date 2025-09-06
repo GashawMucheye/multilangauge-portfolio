@@ -6,6 +6,10 @@ import { Toaster } from '@/components/ui/sonner';
 
 import './globals.css';
 import Footer from '@/components/footer';
+import { ThemeProvider } from 'next-themes';
+import { ScrollToTop } from '@/components/scroll-to-top';
+import { AccessibilityMenu } from '@/components/accessibility-menu';
+import { AccessibilityProvider } from '@/components/accessibility-provider';
 
 export default async function LocaleLayout({
   children,
@@ -21,16 +25,27 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider>
-          <div className='flex min-h-screen flex-col'>
-            <Header />
-            <main className='flex-1'>{children}</main>
-            <Toaster />
-            <Footer />
-          </div>
-        </NextIntlClientProvider>
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='light'
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          <AccessibilityProvider>
+            <NextIntlClientProvider>
+              <div className='flex min-h-screen flex-col'>
+                <Header />
+                <main className='flex-1'>{children}</main>
+                <Toaster />
+                <Footer />
+                <ScrollToTop />
+                <AccessibilityMenu />
+              </div>
+            </NextIntlClientProvider>
+          </AccessibilityProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

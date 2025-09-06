@@ -118,6 +118,8 @@
         "image": "https://placehold.co/600x400.png",
         "title": "E-commerce Platform",
         "description": "A fully responsive and multilingual e-commerce site built with Next.js and Stripe integration.",
+        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
+
         "tags": ["Next.js", "React", "Stripe"]
       },
       {

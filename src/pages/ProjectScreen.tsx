@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+// import Image from 'next/image';
 import React from 'react';
 // import { ProjectCard } from './ProjectCard';
 
@@ -40,10 +40,10 @@ const ProjectScreen = () => {
             >
               <CardHeader>
                 <div className='aspect-video relative w-full mb-4'>
-                  <Image
-                    src=''
+                  <img
+                    src={project.image}
                     alt={project.title}
-                    fill
+                    // fill
                     className='rounded-lg object-cover'
                     sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
                     // data-ai-hint={project.aiHint}

@@ -1,3 +1,4 @@
+import ThreeScene from '@/components/three-scene';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Award } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -10,7 +11,7 @@ const HeroPage = () => {
       id='hero'
       className='relative flex h-[100svh] w-full flex-col items-center justify-center overflow-hidden'
     >
-      {/* <ThreeScene /> */}
+      <ThreeScene />
       <div className='relative z-10 flex flex-col items-center text-center text-primary-foreground p-4'>
         <h1 className='font-headline text-5xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg text-foreground'>
           {t('title')}

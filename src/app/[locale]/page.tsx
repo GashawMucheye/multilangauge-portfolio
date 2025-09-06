@@ -1,17 +1,35 @@
-import { Button } from '@/components/ui/button';
-import { Link } from '@/src/i18n/navigation';
+'use client';
+
 import { useTranslations } from 'next-intl';
 import About from './(auth)/about/page';
 import HeroPage from '@/src/pages/HeroPage';
+import ProjectScreen from '@/src/pages/ProjectScreen';
+import AiReview from '@/src/pages/AiReview';
+import { Separator } from '@/components/ui/separator';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
   const t = useTranslations('nav');
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
   return (
-    <div className='bg-yellow-500 container mx-auto min-h-screen flex flex-col items-center justify-center'>
-      {/* <Link href='/about'>{t('about')}</Link> */}
+    <div className='container mx-auto min-h-screen flex flex-col items-center justify-center'>
       <HeroPage />
-      {/* <Button>button</Button> */}
+      <Separator className='my-12' />
+
       <About />
+      <Separator className='my-12' />
+
+      <ProjectScreen />
+      <Separator className='my-12' />
+      <AiReview />
     </div>
   );
 }

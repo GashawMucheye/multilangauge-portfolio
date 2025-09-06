@@ -7,12 +7,7 @@ import {
   CardDescription,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-// import type { Project, Language } from '@/lib/types';
 
-// interface ProjectCardProps {
-//   project: Project;
-//   language: Language;
-// }
 interface ProjectCardProps {
   project: any;
   language: any;

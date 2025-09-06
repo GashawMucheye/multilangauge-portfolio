@@ -23,7 +23,7 @@ const AboutPage: FC = () => {
                 </div>
                 <div className='relative h-80 md:h-auto min-h-[400px]'>
                   <ThreeImage
-                    imageUrl='https://media.istockphoto.com/id/1451456981/photo/smiling-it-programmer-working-on-desktop-computer-male-specialist-creating-innovative.webp?a=1&b=1&s=612x612&w=0&k=20&c=VkRvHFIClCiQJLqy-SVYmCsfceuAmSYvEJhn0Mw0XmI='
+                    imageUrl='/profile.png'
                     altText={t('image_alt')}
                     aiHint='person portrait'
                   />
