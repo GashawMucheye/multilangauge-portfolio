@@ -1,3 +1,5 @@
+'use client';
+
 import ThreeImage from '@/components/three-image';
 import { Card, CardContent } from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
