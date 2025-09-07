@@ -65,15 +65,22 @@ export function LanguageReview({ languageContent }: LanguageReviewProps) {
       content: '',
     },
   });
-
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
     setReviewResult(null);
+
     try {
-      const result = await reviewLanguage(values);
-      setReviewResult(result);
+      const res = await fetch('/api/language-review', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(values),
+      });
+
+      if (!res.ok) throw new Error('Request failed');
+      const data = await res.json();
+      setReviewResult(data);
     } catch (error) {
-      console.error('AI review failed:', error);
+      console.error('Language review request failed:', error);
     } finally {
       setIsLoading(false);
     }

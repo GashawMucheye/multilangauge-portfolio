@@ -1,8 +1,6 @@
-// This file contains the Genkit flow for reviewing content in a selected language using AI.
+// src/ai/flows/language-review.ts
+// This file defines the Genkit flow for reviewing content in a selected language using AI.
 
-'use server';
-
-// import {ai} from '@/ai/genkit';
 import { z } from 'genkit';
 import { ai } from '../genkit';
 
