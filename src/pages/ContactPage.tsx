@@ -1,6 +1,6 @@
 'use client';
 
-import React, { FC } from 'react';
+import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -19,7 +19,6 @@ import {
 import { Card, CardContent } from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
 import { Loader2 } from 'lucide-react';
-import { sendContactEmail } from '../ai/flows/send-email-flow';
 
 function ContactPage() {
   const t = useTranslations('contact');
@@ -43,18 +42,26 @@ function ContactPage() {
 
   const { formState } = form;
 
+  // 🔥 Use API route instead of importing server code
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      await sendContactEmail(values);
-      toast('success', {
-        description: t('successToast'),
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(values),
       });
-      form.reset();
+
+      const data = await res.json();
+
+      if (data.success) {
+        toast.success(t('successToast'));
+        form.reset();
+      } else {
+        toast.error(data.error || t('errorToast'));
+      }
     } catch (error) {
       console.error('Failed to send message:', error);
-      toast('Error', {
-        description: t('errorToast'),
-      });
+      toast.error(t('errorToast'));
     }
   };
 
@@ -123,4 +130,5 @@ function ContactPage() {
     </Card>
   );
 }
+
 export default ContactPage;
