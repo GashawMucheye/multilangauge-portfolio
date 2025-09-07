@@ -1,4 +1,4 @@
-import SkillsPage from '@/src/pages/SkillsPage';
+import SkillsPage from '@/src/screens/SkillsPage';
 import React from 'react';
 
 const Skills = () => {

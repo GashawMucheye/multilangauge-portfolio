@@ -1,4 +1,4 @@
-import ProjectScreen from '@/src/pages/ProjectScreen';
+import ProjectScreen from '@/src/screens/ProjectScreen';
 import React, { FC } from 'react';
 
 const Projects: FC = () => {

@@ -1,4 +1,4 @@
-import ContactPage from '@/src/pages/ContactPage';
+import ContactPage from '@/src/screens/ContactPage';
 import { Mail } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import React, { FC } from 'react';

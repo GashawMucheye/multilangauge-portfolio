@@ -1,4 +1,4 @@
-import ServicesPage from '@/src/pages/ServicesPage';
+import ServicesPage from '@/src/screens/ServicesPage';
 import React from 'react';
 
 const Services = () => {

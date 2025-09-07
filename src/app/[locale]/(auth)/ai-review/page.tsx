@@ -1,4 +1,4 @@
-import AiReview from '@/src/pages/AiReview';
+import AiReview from '@/src/screens/AiReview';
 import React from 'react';
 
 const page = () => {

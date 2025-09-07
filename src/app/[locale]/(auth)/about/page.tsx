@@ -1,4 +1,4 @@
-import AboutPage from '@/src/pages/AboutPage';
+import AboutPage from '@/src/screens/AboutPage';
 import React, { FC } from 'react';
 
 const About: FC = () => {

@@ -2,9 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import About from './(auth)/about/page';
-import HeroPage from '@/src/pages/HeroPage';
-import ProjectScreen from '@/src/pages/ProjectScreen';
-import AiReview from '@/src/pages/AiReview';
+import HeroPage from '@/src/screens/HeroPage';
+import ProjectScreen from '@/src/screens/ProjectScreen';
+import AiReview from '@/src/screens/AiReview';
 import { Separator } from '@/components/ui/separator';
 import { useEffect, useState } from 'react';
 

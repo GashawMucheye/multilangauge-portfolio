@@ -1,4 +1,4 @@
-import ContactScreen from '@/src/pages/ContactScreen';
+import ContactScreen from '@/src/screens/ContactScreen';
 import React, { FC } from 'react';
 
 const Contact: FC = () => {
