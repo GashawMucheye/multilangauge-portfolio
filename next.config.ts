@@ -2,7 +2,7 @@ import { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
-  //unsplash images to render
+  reactStrictMode: true,
   images: {
     remotePatterns: [
       {
@@ -11,7 +11,13 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
-      //unsplash
+      {
+        protocol: 'https',
+        hostname: 'media.istockphoto.com', // <-- add this
+        port: '',
+        pathname: '/**',
+      },
+      // add other domains if needed
     ],
   },
 };

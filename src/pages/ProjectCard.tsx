@@ -25,7 +25,7 @@ interface ProjectCardProps {
   language: string;
 }
 
-export function ProjectCard({ project, language }: ProjectCardProps) {
+export default function ProjectCard({ project, language }: ProjectCardProps) {
   return (
     <Card className='flex h-full flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1'>
       <CardHeader>
