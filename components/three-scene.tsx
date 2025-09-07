@@ -63,7 +63,7 @@ const ThreeScene: React.FC = () => {
     const updateColors = (currentTheme: string | undefined) => {
       if (currentTheme === 'dark') {
         material.color.set(0x4a4a4a); // Dark Gray
-        wireframeMaterial.color.set(0x00a896); // Tealish
+        wireframeMaterial.color.set(0x00a896); // Teal
       } else {
         material.color.set(0xd0bfff); // Soft Lavender
         wireframeMaterial.color.set(0x4db6ac); // Teal

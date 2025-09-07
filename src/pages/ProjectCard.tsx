@@ -14,8 +14,8 @@ interface ProjectTag {
 
 interface Project {
   image: string;
-  title: { [language: string]: string };
-  description: { [language: string]: string };
+  title: Record<string, string>;
+  description: Record<string, string>;
   tags: ProjectTag[];
   aiHint?: string;
 }
@@ -41,7 +41,7 @@ export function ProjectCard({ project, language }: ProjectCardProps) {
         <CardTitle>{project.title[language]}</CardTitle>
         <CardDescription>{project.description[language]}</CardDescription>
         <div className='mt-2 flex flex-wrap gap-2'>
-          {project.tags.map((tag, index) => (
+          {project.tags.map((tag: ProjectTag, index: number) => (
             <Badge key={index} variant='secondary'>
               {tag[language]}
             </Badge>

@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { skills } from '@/lib/content';
 import { useTranslations } from 'next-intl';
 
-const skillCategories: { id: any; name: string }[] = [
+const skillCategories: { id: string; name: string }[] = [
   { id: 'frontend', name: 'Frontend' },
   { id: 'backend', name: 'Backend' },
   { id: 'database', name: 'Database' },
