@@ -66,7 +66,7 @@ const ThreeImage: React.FC<ThreeImageProps> = ({
     pointLight.position.set(2, 2, 2);
     scene.add(pointLight);
 
-    let mouse = new THREE.Vector2();
+    const mouse = new THREE.Vector2();
     const onMouseMove = (event: MouseEvent) => {
       mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
       mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;

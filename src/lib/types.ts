@@ -1,4 +1,4 @@
-export const LANGUAGES: { value: any; label: string }[] = [
+export const LANGUAGES: { value: string; label: string }[] = [
   { value: 'en', label: 'English' },
   { value: 'es', label: 'Español' },
   { value: 'fr', label: 'Français' },

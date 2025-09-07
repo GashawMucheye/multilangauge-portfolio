@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import {
   Card,
@@ -7,9 +8,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
-// import Image from 'next/image';
 import React from 'react';
-// import { ProjectCard } from './ProjectCard';
 
 const ProjectScreen = () => {
   const t = useTranslations('projects');
@@ -32,6 +31,7 @@ const ProjectScreen = () => {
             {t('description')}
           </p>
         </div>
+
         <div className='mt-16 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {projects.map((project) => (
             <Card
@@ -40,25 +40,25 @@ const ProjectScreen = () => {
             >
               <CardHeader>
                 <div className='aspect-video relative w-full mb-4'>
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
-                    // fill
+                    fill
                     className='rounded-lg object-cover'
                     sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-                    // data-ai-hint={project.aiHint}
                   />
                 </div>
                 <CardTitle className='font-headline text-2xl'>
                   {project.title}
                 </CardTitle>
               </CardHeader>
+
               <CardContent className='flex flex-col flex-grow'>
                 <CardDescription className='flex-grow'>
                   {project.description}
                 </CardDescription>
                 <div className='mt-4 flex flex-wrap gap-2'>
-                  {project.tags.map((tag: any, index: any) => (
+                  {project.tags.map((tag, index) => (
                     <Badge key={index} variant='secondary'>
                       {tag}
                     </Badge>

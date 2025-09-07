@@ -8,9 +8,21 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
+interface ProjectTag {
+  [language: string]: string;
+}
+
+interface Project {
+  image: string;
+  title: { [language: string]: string };
+  description: { [language: string]: string };
+  tags: ProjectTag[];
+  aiHint?: string;
+}
+
 interface ProjectCardProps {
-  project: any;
-  language: any;
+  project: Project;
+  language: string;
 }
 
 export function ProjectCard({ project, language }: ProjectCardProps) {
@@ -24,24 +36,22 @@ export function ProjectCard({ project, language }: ProjectCardProps) {
             fill
             className='rounded-lg object-cover'
             sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-            data-ai-hint={project.aiHint}
           />
         </div>
-        <CardTitle className='font-headline text-2xl'>
-          {project.title[language]}
-        </CardTitle>
-      </CardHeader>
-      <CardContent className='flex flex-col flex-grow'>
-        <CardDescription className='flex-grow'>
-          {project.description[language]}
-        </CardDescription>
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {project.tags.map((tag: any, index: any) => (
+        <CardTitle>{project.title[language]}</CardTitle>
+        <CardDescription>{project.description[language]}</CardDescription>
+        <div className='mt-2 flex flex-wrap gap-2'>
+          {project.tags.map((tag, index) => (
             <Badge key={index} variant='secondary'>
               {tag[language]}
             </Badge>
           ))}
         </div>
+      </CardHeader>
+      <CardContent>
+        {project.aiHint && (
+          <p className='text-sm text-muted-foreground'>{project.aiHint}</p>
+        )}
       </CardContent>
     </Card>
   );

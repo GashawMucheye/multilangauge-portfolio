@@ -16,10 +16,14 @@ export async function POST(req: Request) {
     await sendEmail({ name, email, message });
 
     return NextResponse.json({ success: true });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Email error:', error);
+    const errorMessage =
+      typeof error === 'object' && error !== null && 'message' in error
+        ? (error as { message?: string }).message || 'Server error'
+        : 'Server error';
     return NextResponse.json(
-      { success: false, error: error.message || 'Server error' },
+      { success: false, error: errorMessage },
       { status: 500 }
     );
   }
