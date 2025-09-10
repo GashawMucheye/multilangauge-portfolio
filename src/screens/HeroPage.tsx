@@ -20,12 +20,7 @@ const HeroPage = () => {
           {t('subtitle')}
         </p>
         <div className='mt-8 flex flex-col sm:flex-row gap-4'>
-          <Button
-            asChild
-            size='lg'
-            variant='outline'
-            className='bg-background/10 text-foreground hover:bg-blue-500 border-foreground/20'
-          >
+          <Button asChild size='lg' variant='outline' className='btn_hero'>
             <a href='#projects'>
               {t('cta')}
               <ArrowDown className='ml-2 h-5 w-5' />
@@ -35,7 +30,7 @@ const HeroPage = () => {
             asChild
             size='lg'
             variant='outline'
-            className='bg-background/10 text-foreground hover:bg-blue-500 border-foreground/20'
+            className='btn_certificate '
           >
             <a href='/certificate.pdf' target='_blank'>
               {t('certificateCta')}
