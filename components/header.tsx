@@ -57,8 +57,15 @@ function Header() {
         </Link>
         <nav className='hidden items-center gap-1 md:flex'>
           {navItems.map((item) => (
-            <Button key={item.label} variant='ghost' asChild>
-              <Link href={item.href}>{item.label}</Link>
+            <Button
+              key={item.label}
+              variant='ghost'
+              asChild
+              className='text-sm text-foreground '
+            >
+              <Link href={item.href} className='navigate_link'>
+                {item.label}
+              </Link>
             </Button>
           ))}
           <LanguageSwitcher />
@@ -87,7 +94,9 @@ function Header() {
                     asChild
                     className='text-lg'
                   >
-                    <Link href={item.href}>{item.label}</Link>
+                    <Link href={item.href} className='navigate_link'>
+                      {item.label}
+                    </Link>
                   </Button>
                 ))}
                 <div className='mt-4 flex justify-center'>

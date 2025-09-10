@@ -23,7 +23,8 @@ const HeroPage = () => {
           <Button
             asChild
             size='lg'
-            className='bg-accent text-accent-foreground hover:bg-accent/90'
+            variant='outline'
+            className='bg-background/10 text-foreground hover:bg-blue-500 border-foreground/20'
           >
             <a href='#projects'>
               {t('cta')}
@@ -34,7 +35,7 @@ const HeroPage = () => {
             asChild
             size='lg'
             variant='outline'
-            className='bg-background/10 text-foreground hover:bg-background/20 border-foreground/20'
+            className='bg-background/10 text-foreground hover:bg-blue-500 border-foreground/20'
           >
             <a href='/certificate.pdf' target='_blank'>
               {t('certificateCta')}

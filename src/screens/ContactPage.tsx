@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/form';
 import { Card, CardContent } from '@/components/ui/card';
 import { useTranslations } from 'next-intl';
-import { Loader2 } from 'lucide-react';
+import { Loader2, SendHorizonalIcon } from 'lucide-react';
 
 function ContactPage() {
   const t = useTranslations('contact');
@@ -117,12 +117,12 @@ function ContactPage() {
               type='submit'
               className='w-full'
               disabled={formState.isSubmitting}
-              style={{ backgroundColor: 'yellow' }}
+              style={{ backgroundColor: '#0070f3' }}
             >
               {formState.isSubmitting && (
                 <Loader2 className='mr-2 h-4 w-4 animate-spin' />
               )}
-              {t('submitButton')}
+              <SendHorizonalIcon /> {t('submitButton')}
             </Button>
           </form>
         </Form>

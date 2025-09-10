@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/select';
 // import type { Language } from '@/lib/types';
 // import { LANGUAGES } from '@/lib/types';
-import { useTransition } from 'react';
+import { useEffect, useTransition } from 'react';
 import { LANGUAGES } from '../src/lib/types';
 import { usePathname, useRouter } from '../src/i18n/navigation';
 
@@ -19,7 +19,13 @@ export function LanguageSwitcher() {
   const pathname = usePathname();
   const locale = useLocale() as string;
   const [isPending, startTransition] = useTransition();
-
+  useEffect(() => {
+    if (locale === 'he') {
+      document.documentElement.dir = 'rtl';
+    } else {
+      document.documentElement.dir = 'ltr';
+    }
+  }, [locale]);
   const onSelectChange = (value: string) => {
     const nextLocale = value;
     startTransition(() => {
