@@ -63,7 +63,16 @@ export function AccessibilityMenu() {
             <Accessibility className='h-7 w-7' />
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent side='top' align='start' className='w-80'>
+        <DropdownMenuContent
+          side='top'
+          align='start'
+          className='w-80'
+          style={{
+            backgroundColor: 'steelblue',
+            color: 'black',
+            boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
+          }}
+        >
           <div className='flex items-center justify-between pr-2'>
             <DropdownMenuLabel>{t('menuOptions')}</DropdownMenuLabel>
             <Button

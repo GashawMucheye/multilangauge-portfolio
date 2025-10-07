@@ -17,13 +17,14 @@ import { Button } from './ui/button';
 import { usePathname } from '../src/i18n/navigation';
 import Link from 'next/link';
 import { ThemeSwitcher } from './theme-switcher';
+import { useTheme } from 'next-themes';
 
 function Header() {
   const t = useTranslations('nav');
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const isHome = pathname === '/';
-
+  const { theme, setTheme } = useTheme();
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
@@ -82,10 +83,15 @@ function Header() {
                 <span className='sr-only'>Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side='right'>
+            <SheetContent
+              side='right'
+              style={{
+                background: theme === 'light' ? 'steelblue' : 'gray',
+              }}
+            >
               <SheetHeader>
                 <SheetTitle className='font-headline text-lg'>
-                  LinguaFolio
+                  GMDFolio
                 </SheetTitle>
               </SheetHeader>
               <nav className='flex flex-col gap-4 mt-8'>

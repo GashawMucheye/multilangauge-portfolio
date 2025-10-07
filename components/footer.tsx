@@ -32,7 +32,7 @@ export default function Footer() {
       <div className='container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row'>
         <div className='flex items-center gap-2'>
           <CodeXml className='h-6 w-6 text-accent' />
-          <span className='font-bold font-headline'>LinguaFolio</span>
+          <span className='font-bold font-headline'>GMDFOLIO</span>
         </div>
         <p className='text-sm text-muted-foreground text-center sm:text-left'>
           &copy; {currentYear} GMDFOLIO. {t('copy')}
