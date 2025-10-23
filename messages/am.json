@@ -20,23 +20,23 @@
       {
         "id": 1,
         "title": "የኢ-ኮሜርስ መድረክ",
+        "image": "/e-commerce.png",
         "description": "ከ Next.js እና ከ Stripe ውህደት ጋር የተገነባ ሙሉ በሙሉ ምላሽ ሰጭ እና ብዙ ቋንቋ ተናጋሪ የኢ-ኮሜርስ ጣቢያ።",
-        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
         "tags": ["Next.js", "React", "Stripe"]
       },
       {
         "id": 2,
         "title": "3D የምርት እይታ",
+        "image": "/3d-product-viewer.png",
         "description": "ተጠቃሚዎች ምርቶችን በእውነተኛ ሰዓት እንዲያበጁ እና እንዲመለከቱ ለማስቻል Three.js ን በመጠቀም በይነተገናኝ 3D መተግበሪያ።",
-        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
 
         "tags": ["Three.js", "TypeScript", "Shadcn UI"]
       },
       {
         "id": 3,
         "title": "የቋንቋ መማሪያ መተግበሪያ",
+        "image": "/language-learning-app.png",
         "description": "በ AI የተጎላበተ ግብረመልስ ፣ የቋንቋ ትምህርትን አስደሳች እና ተደራሽ ለማድረግ የተነደፈ የሞባይል-የመጀመሪያ ድር መተግበሪያ።",
-        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
 
         "tags": ["GenAI", "React", "Firebase"]
       },
@@ -49,15 +49,15 @@
       {
         "id": 5,
         "title": "የገንዘብ ዳሽቦርድ",
+        "image": "/financial-dashboard.png",
         "description": "በRecharts የተጎላበተ፣ በይነተገናኝ ገበታዎች እና ግራፎች የፋይናንስ ገበያ አዝማሚያዎችን የሚያሳይ የውሂብ እይታ ዳሽቦርድ።",
         "tags": ["የውሂብ እይታ", "Recharts", "Next.js"]
       },
       {
         "id": 6,
         "title": "የገበያ ትንተና ዳሽቦርድ",
+        "image": "/marketing-analytics-dashboard.png",
         "description": "የግብይት ዘመቻ መረጃን በዓይነ ሕሊናህ ለመመልከት ፣ ስለ አፈፃፀም እና ስለ ROI ግንዛቤዎችን የሚሰጥ አጠቃላይ ዳሽቦርድ።",
-        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
-
         "tags": ["የውሂብ እይታ", "React", "Shadcn UI"]
       }
     ]

@@ -115,12 +115,12 @@
     "projectItems": [
       {
         "id": 1,
-        "image": "https://placehold.co/600x400.png",
+        "image": "/e-commerce.png",
         "title": "E-commerce Platform",
-        "description": "A fully responsive and multilingual e-commerce site built with Next.js and Stripe integration.",
-        "image": "https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rns43dSWPSYJG75Ya-fdWj2NoY1yIE5NxzTSl1JDmfM=",
-
-        "tags": ["Next.js", "React", "Stripe"]
+        "description": "A fully responsive e-commerce site built by MERN and Paypal integration.",
+        "live": "https://final-project-shopping-cart.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
+        "tags": ["MongoDB", "Express", "React", "Node", "Paypal", "jwt"]
       },
       {
         "id": 2,

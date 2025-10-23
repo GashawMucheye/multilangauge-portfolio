@@ -20,6 +20,7 @@
       {
         "id": 1,
         "title": "Plateforme E-commerce",
+        "image": "/e-commerce.png",
         "description": "Un site e-commerce entièrement réactif et multilingue construit avec Next.js et l'intégration de Stripe.",
         "tags": ["Next.js", "React", "Stripe"]
       },

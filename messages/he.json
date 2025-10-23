@@ -20,6 +20,7 @@
       {
         "id": 1,
         "title": "פלטפורמת מסחר אלקטרוני",
+        "image": "/e-commerce.png",
         "description": "אתר מסחר אלקטרוני רספונסיבי ורב-לשוני לחלוטין שנבנה עם Next.js ושילוב Stripe.",
         "tags": ["Next.js", "React", "Stripe"]
       },
