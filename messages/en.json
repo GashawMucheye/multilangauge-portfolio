@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "LinguaFolio",
+    "title": "GMDFolio",
     "subtitle": "Crafting digital experiences that speak every language. Explore my work in a world without linguistic barriers.",
     "cta": "View My Work",
     "certificateCta": "View My Certificate"
@@ -124,10 +124,20 @@
       },
       {
         "id": 2,
-        "image": "https://placehold.co/600x400.png",
-        "title": "3D Product Visualizer",
-        "description": "An interactive 3D application using Three.js to allow users to customize and view products in real-time.",
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "A sleek and modern photography portfolio website that supports multiple languages, allowing photographers to showcase their work to a global audience.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
