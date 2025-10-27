@@ -19,26 +19,47 @@
     "projectItems": [
       {
         "id": 1,
-        "title": "የኢ-ኮሜርስ መድረክ",
         "image": "/e-commerce.png",
-        "description": "ከ Next.js እና ከ Stripe ውህደት ጋር የተገነባ ሙሉ በሙሉ ምላሽ ሰጭ እና ብዙ ቋንቋ ተናጋሪ የኢ-ኮሜርስ ጣቢያ።",
-        "tags": ["Next.js", "React", "Stripe"]
+        "title": "የኢ-ኮሜርስ  ድህረ ገጽ",
+        "description": "በMERN እና በPaypal ውህደት የተገነባ ሙሉ ለሙሉ ምላሽ ሰጪ (responsive) የሆነ የኢ-ኮሜርስ ድህረ ገጽ።",
+        "live": "https://final-project-shopping-cart.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "Paypal",
+          "jwt",
+          "node-mailer"
+        ]
       },
       {
         "id": 2,
-        "title": "3D የምርት እይታ",
-        "image": "/3d-product-viewer.png",
-        "description": "ተጠቃሚዎች ምርቶችን በእውነተኛ ሰዓት እንዲያበጁ እና እንዲመለከቱ ለማስቻል Three.js ን በመጠቀም በይነተገናኝ 3D መተግበሪያ።",
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "በርካታ ቋንቋዎችን የሚደግፍ፣ ፎቶግራፍ አንሺዎች ስራቸውን ለአለም አቀፍ ታዳሚ እንዲያሳዩ የሚያስችል፣ የሚያምር እና ዘመናዊ የፎቶግራፍ ፖርትፎሊዮ ድህረ ገጽ።",
 
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
-        "title": "የቋንቋ መማሪያ መተግበሪያ",
-        "image": "/language-learning-app.png",
-        "description": "በ AI የተጎላበተ ግብረመልስ ፣ የቋንቋ ትምህርትን አስደሳች እና ተደራሽ ለማድረግ የተነደፈ የሞባይል-የመጀመሪያ ድር መተግበሪያ።",
-
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "የገንዘብ ዳሽቦርድ",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "የዳሽቦርድ አጠቃላይ እይታ፣ በሰው ሰራሽ ብልህነት (AI) የታገዘ መስተጋብራዊ ቻርት ማመንጨት (አሞሌ፣ መስመር፣ ኬክ) እና ሙሉ የዳታ አስተዳደር (ማስገባት፣ ማስተካከል፣ መሰረዝ) እንዲሁም ማጠቃለያ ስታቲስቲክስ የሚሰጥ የገንዘብ ዳታ ትንተና መሳሪያ።",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,

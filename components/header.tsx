@@ -54,7 +54,7 @@ function Header() {
       <div className='container mx-auto flex h-20 items-center justify-between px-4'>
         <Link href='/' className='flex items-center gap-2 font-bold text-xl'>
           {/* <CodeXml className='h-7 w-7 text-accent' /> */}
-          <span className='font-headline hover:outline-2 hover:bg-blue-500'>
+          <span className='font-headline hover:outline-2 hover:bg-blue-500 hover:text-white px-2 py-1 rounded-md transition-all duration-300'>
             GMDFOLIO
           </span>
         </Link>

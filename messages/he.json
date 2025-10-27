@@ -19,22 +19,46 @@
     "projectItems": [
       {
         "id": 1,
-        "title": "פלטפורמת מסחר אלקטרוני",
         "image": "/e-commerce.png",
-        "description": "אתר מסחר אלקטרוני רספונסיבי ורב-לשוני לחלוטין שנבנה עם Next.js ושילוב Stripe.",
-        "tags": ["Next.js", "React", "Stripe"]
+        "title": "פלטפורמת מסחר אלקטרוני",
+        "description": "אתר מסחר אלקטרוני רספונסיבי לחלוטין שנבנה באמצעות MERN ואינטגרציית Paypal.",
+        "live": "https://final-project-shopping-cart.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "Paypal",
+          "jwt",
+          "node-mailer"
+        ]
       },
       {
         "id": 2,
-        "title": "מדמיין מוצרים בתלת מימד",
-        "description": "יישום תלת מימד אינטראקטיבי המשתמש ב-Three.js כדי לאפשר למשתמשים להתאים אישית ולהציג מוצרים בזמן אמת.",
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "אתר פורטפוליו לצילום, מלוטש ומודרני, התומך במספר שפות, ומאפשר לצלמים להציג את עבודתם לקהל גלובלי.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
-        "title": "אפליקציה ללימוד שפות",
-        "description": "אפליקציית אינטרנט המיועדת למובייל שנועדה להפוך את לימוד השפות למהנה ונגיש, עם משוב המופעל על ידי AI.",
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "לוח מחוונים פיננסי",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "כלי לניתוח נתונים פיננסיים המספק סקירה של לוח מחוונים, יצירת תרשימים אינטראקטיביים בסיוע בינה מלאכותית (עמודות, קו, עוגה), וניהול נתונים מלא (הזנה, עריכה, מחיקה), יחד עם סטטיסטיקות סיכום.",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,

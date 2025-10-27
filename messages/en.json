@@ -120,7 +120,15 @@
         "description": "A fully responsive e-commerce site built by MERN and Paypal integration.",
         "live": "https://final-project-shopping-cart.onrender.com/",
         "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
-        "tags": ["MongoDB", "Express", "React", "Node", "Paypal", "jwt"]
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "Paypal",
+          "jwt",
+          "node-mailer"
+        ]
       },
       {
         "id": 2,
@@ -136,15 +144,18 @@
           "next-intl",
           "MongoDB",
           "genkit",
-          "cloudinary"
+          "cloudinary",
+          "node-mailer"
         ]
       },
       {
         "id": 3,
-        "image": "https://placehold.co/600x400.png",
-        "title": "Language Learning App",
-        "description": "A mobile-first web app designed to make language learning fun and accessible, with AI-powered feedback.",
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "Financial Dashboard",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "A financial data analysis tool providing a dashboard overview, AI-assisted interactive chart generation (bar, line, pie), and full data management (input, edit, delete), along with summary statistics.",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,

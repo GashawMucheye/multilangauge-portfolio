@@ -19,22 +19,46 @@
     "projectItems": [
       {
         "id": 1,
-        "title": "Plataforma de E-commerce",
         "image": "/e-commerce.png",
-        "description": "Un sitio de comercio electrónico totalmente receptivo y multilingüe creado con Next.js e integración de Stripe.",
-        "tags": ["Next.js", "React", "Stripe"]
+        "title": "Plataforma de Comercio Electrónico",
+        "description": "Un sitio de comercio electrónico totalmente adaptable (responsive) construido con MERN e integración de Paypal.",
+        "live": "https://final-project-shopping-cart.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "Paypal",
+          "jwt",
+          "node-mailer"
+        ]
       },
       {
         "id": 2,
-        "title": "Visualizador de Productos 3D",
-        "description": "Una aplicación 3D interactiva que utiliza Three.js para permitir a los usuarios personalizar y ver productos en tiempo real.",
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "Un sitio web de portafolio de fotografía elegante y moderno que admite múltiples idiomas, lo que permite a los fotógrafos mostrar su trabajo a una audiencia global.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
-        "title": "App de Aprendizaje de Idiomas",
-        "description": "Una aplicación web de prioridad móvil diseñada para que el aprendizaje de idiomas sea divertido y accesible, con comentarios impulsados por IA.",
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "Panel de Control Financiero",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "Una herramienta de análisis de datos financieros que proporciona una visión general del panel de control, generación de gráficos interactivos asistida por IA (barra, línea, circular) y gestión completa de datos (ingresar, editar, eliminar), junto con estadísticas de resumen.",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,

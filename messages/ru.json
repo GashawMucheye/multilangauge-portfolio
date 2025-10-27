@@ -26,15 +26,29 @@
       },
       {
         "id": 2,
-        "title": "3D-визуализатор продуктов",
-        "description": "Интерактивное 3D-приложение с использованием Three.js, позволяющее пользователям настраивать и просматривать продукты в режиме реального времени.",
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "Элегантный и современный веб-сайт с портфолио для фотографов, поддерживающий несколько языков и позволяющий им демонстрировать свои работы мировой аудитории.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
-        "title": "Приложение для изучения языков",
-        "description": "Веб-приложение для мобильных устройств, разработанное, чтобы сделать изучение языков увлекательным и доступным, с обратной связью на основе ИИ.",
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "Финансовая Панель Управления",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "Инструмент для анализа финансовых данных, предоставляющий обзор панели управления, интерактивную генерацию диаграмм с помощью ИИ (гистограмма, линейный, круговой) и полное управление данными (ввод, редактирование, удаление), а также сводную статистику.",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,

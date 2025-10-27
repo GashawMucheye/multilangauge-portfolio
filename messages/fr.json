@@ -19,22 +19,46 @@
     "projectItems": [
       {
         "id": 1,
-        "title": "Plateforme E-commerce",
         "image": "/e-commerce.png",
-        "description": "Un site e-commerce entièrement réactif et multilingue construit avec Next.js et l'intégration de Stripe.",
-        "tags": ["Next.js", "React", "Stripe"]
+        "title": "Plateforme de Commerce Électronique",
+        "description": "Un site de commerce électronique entièrement réactif (responsive) construit avec MERN et l'intégration de Paypal.",
+        "live": "https://final-project-shopping-cart.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Final-Project-Shopping-Cart",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "Paypal",
+          "jwt",
+          "node-mailer"
+        ]
       },
       {
         "id": 2,
-        "title": "Visualiseur de Produits 3D",
-        "description": "Une application 3D interactive utilisant Three.js pour permettre aux utilisateurs de personnaliser et de visualiser les produits en temps réel.",
-        "tags": ["Three.js", "TypeScript", "Shadcn UI"]
+        "image": "/photography.png",
+        "title": "Multilingual photography portfolio",
+        "live": "https://eyalphotography.netlify.app/",
+        "code": "https://github.com/GashawMucheye/final_eyal_site",
+        "description": "Un site web de portfolio de photographie élégant et moderne qui prend en charge plusieurs langues, permettant aux photographes de présenter leur travail à un public mondial.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Shadcn UI",
+          "next-intl",
+          "MongoDB",
+          "genkit",
+          "cloudinary"
+        ]
       },
       {
         "id": 3,
-        "title": "Application d'apprentissage des langues",
-        "description": "Une application web mobile-first conçue pour rendre l'apprentissage des langues amusant et accessible, avec des commentaires alimentés par l'IA.",
-        "tags": ["GenAI", "React", "Firebase"]
+        "image": "/financialScreen.png",
+        "title": "Tableau de Bord Financier",
+        "live": "https://finview-dashboard.netlify.app/",
+        "code": "https://github.com/GashawMucheye/Financial-Dashboard",
+        "description": "Un outil d'analyse de données financières offrant un aperçu du tableau de bord, la génération de graphiques interactifs assistée par IA (barres, lignes, secteurs) et une gestion complète des données (saisie, modification, suppression), ainsi que des statistiques récapitulatives.",
+        "tags": ["Next.js", "TypeScript", "tailwindcss", "AI"]
       },
       {
         "id": 4,
