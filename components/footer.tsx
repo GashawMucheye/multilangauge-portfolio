@@ -35,7 +35,7 @@ export default function Footer() {
           <span className='font-bold font-headline'>GMDFOLIO</span>
         </div>
         <p className='text-sm text-muted-foreground text-center sm:text-left'>
-          &copy; {currentYear} GMDFOLIO. {t('copy')}
+          &copy; {currentYear} ❤️GMDFOLIO. {t('copy')}
         </p>
         <div className='flex items-center gap-2'>
           <Button variant='ghost' size='icon' asChild>
