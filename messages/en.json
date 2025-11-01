@@ -159,10 +159,23 @@
       },
       {
         "id": 4,
-        "image": "https://placehold.co/600x400.png",
-        "title": "Collaborative Editor",
-        "description": "A real-time text editor allowing multiple users to collaborate on documents simultaneously, using Firebase for synchronization.",
-        "tags": ["Firebase", "Real-time", "TypeScript"]
+        "image": "/chatScreen.png",
+        "title": "Real-Time Chat Application",
+        "code": "https://github.com/the-best-students/Realtime-Chat-App",
+        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "description": "A real-time chat application that enables users to communicate instantly using the MERN stack and websocket.io.",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "WebSocket.io",
+          "JWT",
+          "node-mailer",
+          "zustand",
+          "cloudinary",
+          "daisyUI"
+        ]
       },
       {
         "id": 5,

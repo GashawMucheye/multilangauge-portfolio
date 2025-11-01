@@ -62,9 +62,23 @@
       },
       {
         "id": 4,
-        "title": "עורך שיתופי",
-        "description": "עורך טקסט בזמן אמת המאפשר למספר משתמשים לשתף פעולה במסמכים בו-זמנית, תוך שימוש ב-Firebase לסנכרון.",
-        "tags": ["Firebase", "בזמן אמת", "TypeScript"]
+        "image": "/chatScreen.png",
+        "title": "אפליקציית-צ'אט-בזמן-אמת",
+        "code": "https://github.com/the-best-students/Realtime-Chat-App",
+        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "description": "אפליקציית צ'אט בזמן אמת המאפשרת למשתמשים לתקשר באופן מיידי באמצעות חבילת MERN ו-websocket.io.",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "WebSocket.io",
+          "JWT",
+          "node-mailer",
+          "zustand",
+          "cloudinary",
+          "daisyUI"
+        ]
       },
       {
         "id": 5,

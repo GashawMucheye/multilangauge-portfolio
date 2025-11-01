@@ -62,9 +62,23 @@
       },
       {
         "id": 4,
-        "title": "Éditeur Collaboratif",
-        "description": "Un éditeur de texte en temps réel permettant à plusieurs utilisateurs de collaborer simultanément sur des documents, en utilisant Firebase pour la synchronisation.",
-        "tags": ["Firebase", "Temps Réel", "TypeScript"]
+        "image": "/chatScreen.png",
+        "title": "Application-de-Chat-en-Temps-Réel",
+        "code": "https://github.com/the-best-students/Realtime-Chat-App",
+        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "description": "Une application de chat en temps réel qui permet aux utilisateurs de communiquer instantanément en utilisant la pile MERN et websocket.io.",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "WebSocket.io",
+          "JWT",
+          "node-mailer",
+          "zustand",
+          "cloudinary",
+          "daisyUI"
+        ]
       },
       {
         "id": 5,

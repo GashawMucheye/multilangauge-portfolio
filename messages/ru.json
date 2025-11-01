@@ -52,9 +52,23 @@
       },
       {
         "id": 4,
-        "title": "Совместный редактор",
-        "description": "Текстовый редактор в реальном времени, позволяющий нескольким пользователям одновременно работать над документами, используя Firebase для синхронизации.",
-        "tags": ["Firebase", "В реальном времени", "TypeScript"]
+        "image": "/chatScreen.png",
+        "title": "Приложение-для-чата-в-реальном-времени",
+        "code": "https://github.com/the-best-students/Realtime-Chat-App",
+        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "description": "Приложение для чата в реальном времени, которое позволяет пользователям мгновенно общаться, используя стек MERN и websocket.io.",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "WebSocket.io",
+          "JWT",
+          "node-mailer",
+          "zustand",
+          "cloudinary",
+          "daisyUI"
+        ]
       },
       {
         "id": 5,

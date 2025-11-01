@@ -63,9 +63,23 @@
       },
       {
         "id": 4,
-        "title": "የትብብር አርታዒ",
-        "description": "ለማመሳሰል Firebaseን በመጠቀም ብዙ ተጠቃሚዎች በአንድ ጊዜ በሰነዶች ላይ እንዲተባበሩ የሚያስችል የእውነተኛ ጊዜ የጽሑፍ አርታኢ።",
-        "tags": ["Firebase", "የእውነተኛ ጊዜ", "TypeScript"]
+        "image": "/chatScreen.png",
+        "title": "የቅጽበት-ቻት-መተግበሪያ",
+        "code": "https://github.com/the-best-students/Realtime-Chat-App",
+        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "description": "ተጠቃሚዎች MERN stack እና websocket.io በመጠቀም ወዲያውኑ እንዲገናኙ የሚያስችል የቅጽበት የቻት መተግበሪያ።",
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "WebSocket.io",
+          "JWT",
+          "node-mailer",
+          "zustand",
+          "cloudinary",
+          "daisyUI"
+        ]
       },
       {
         "id": 5,
