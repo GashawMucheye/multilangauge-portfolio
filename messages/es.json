@@ -82,15 +82,12 @@
       },
       {
         "id": 5,
-        "title": "Panel Financiero",
-        "description": "Un panel de visualización de datos que muestra las tendencias del mercado financiero con gráficos interactivos, impulsado por Recharts.",
-        "tags": ["Visualización", "Recharts", "Next.js"]
-      },
-      {
-        "id": 6,
-        "title": "Panel de Análisis de Marketing",
-        "description": "Un panel completo para visualizar datos de campañas de marketing, que proporciona información sobre el rendimiento y el ROI.",
-        "tags": ["Visualización", "React", "Shadcn UI"]
+        "image": "/ai_image.png",
+        "title": "Generador de Imágenes con IA",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "Una aplicación de generación de imágenes impulsada por IA que crea impresionantes elementos visuales a partir de indicaciones de texto, utilizando la API de openAI.",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       }
     ]
   },

@@ -82,15 +82,12 @@
       },
       {
         "id": 5,
-        "title": "Tableau de Bord Financier",
-        "description": "Un tableau de bord de visualisation de données affichant les tendances du marché financier avec des graphiques interactifs, optimisé par Recharts.",
-        "tags": ["Dataviz", "Recharts", "Next.js"]
-      },
-      {
-        "id": 6,
-        "title": "Tableau de Bord dAnalyse Marketing",
-        "description": "Un tableau de bord complet pour visualiser les données des campagnes marketing, fournissant des informations sur les performances et le retour sur investissement.",
-        "tags": ["Dataviz", "React", "Shadcn UI"]
+        "image": "/ai_image.png",
+        "title": "Générateur d'Images IA",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "Une application de génération d'images alimentée par l'IA qui crée des visuels époustouflants à partir d'invites de texte, en utilisant l'API d'openAI.",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       }
     ]
   },

@@ -82,15 +82,12 @@
       },
       {
         "id": 5,
-        "title": "לוח מחוונים פיננסי",
-        "description": "לוח מחוונים להדמיית נתונים המציג מגמות בשוק הפיננסי עם תרשימים וגרפים אינטראקטיביים, המופעל על ידי Recharts.",
-        "tags": ["הדמיית נתונים", "Recharts", "Next.js"]
-      },
-      {
-        "id": 6,
-        "title": "לוח מחוונים לניתוח שיווק",
-        "description": "לוח מחוונים מקיף להדמיית נתוני קמפיינים שיווקיים, המספק תובנות לגבי ביצועים והחזר ROI.",
-        "tags": ["הדמיית נתונים", "React", "Shadcn UI"]
+        "image": "/ai_image.png",
+        "title": "מחולל תמונות AI",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "אפליקציה ליצירת תמונות מונעת-בינה מלאכותית שיוצרת תמונות מדהימות מהנחיות טקסט, באמצעות API של openAI.",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       }
     ]
   },

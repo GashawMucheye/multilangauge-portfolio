@@ -72,9 +72,12 @@
       },
       {
         "id": 5,
-        "title": "Финансовая панель",
-        "description": "Панель визуализации данных, отображающая тенденции финансового рынка с помощью интерактивных диаграмм и графиков на базе Recharts.",
-        "tags": ["Визуализация", "Recharts", "Next.js"]
+        "image": "/ai_image.png",
+        "title": "Генератор изображений с ИИ",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "Приложение для генерации изображений на базе ИИ, которое создает потрясающие визуальные эффекты из текстовых подсказок, используя API openAI.",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       },
       {
         "id": 6,

@@ -83,17 +83,12 @@
       },
       {
         "id": 5,
-        "title": "የገንዘብ ዳሽቦርድ",
-        "image": "/financial-dashboard.png",
-        "description": "በRecharts የተጎላበተ፣ በይነተገናኝ ገበታዎች እና ግራፎች የፋይናንስ ገበያ አዝማሚያዎችን የሚያሳይ የውሂብ እይታ ዳሽቦርድ።",
-        "tags": ["የውሂብ እይታ", "Recharts", "Next.js"]
-      },
-      {
-        "id": 6,
-        "title": "የገበያ ትንተና ዳሽቦርድ",
-        "image": "/marketing-analytics-dashboard.png",
-        "description": "የግብይት ዘመቻ መረጃን በዓይነ ሕሊናህ ለመመልከት ፣ ስለ አፈፃፀም እና ስለ ROI ግንዛቤዎችን የሚሰጥ አጠቃላይ ዳሽቦርድ።",
-        "tags": ["የውሂብ እይታ", "React", "Shadcn UI"]
+        "image": "/ai_image.png",
+        "title": "የአርቴፊሻል ኢንተለጀንስ ምስል አመንጪ",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "የOpenAI APIን በመጠቀም ከአንቀፅ ግብአት (text prompts) አስደናቂ ምስሎችን የሚፈጥር በኤአይ የተደገፈ የምስል ማመንጫ መተግበሪያ።",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       }
     ]
   },

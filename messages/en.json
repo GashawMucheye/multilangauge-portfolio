@@ -179,17 +179,12 @@
       },
       {
         "id": 5,
-        "image": "https://placehold.co/600x400.png",
-        "title": "Financial Dashboard",
-        "description": "A data visualization dashboard displaying financial market trends with interactive charts and graphs, powered by Recharts.",
-        "tags": ["Data Viz", "Recharts", "Next.js"]
-      },
-      {
-        "id": 6,
-        "image": "https://placehold.co/600x400.png",
-        "title": "Marketing Analytics Dashboard",
-        "description": "A comprehensive dashboard for visualizing marketing campaign data, providing insights into performance and ROI.",
-        "tags": ["Data Viz", "React", "Shadcn UI"]
+        "image": "/ai_image.png",
+        "title": "AI Image Generator",
+        "live": "https://nodejs-ai-image-1-h4zf.onrender.com/",
+        "code": "https://github.com/GashawMucheye/Nodejs-Ai-Image",
+        "description": "An AI-powered image generation app that creates stunning visuals from text prompts,by using openAI's API.",
+        "tags": ["React.js", "CSS", "Express", "Node.js", "OpenAI API"]
       }
     ]
   }
