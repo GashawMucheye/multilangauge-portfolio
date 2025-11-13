@@ -65,7 +65,7 @@
         "image": "/chatScreen.png",
         "title": "אפליקציית-צ'אט-בזמן-אמת",
         "code": "https://github.com/the-best-students/Realtime-Chat-App",
-        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "live": "https://chat-app-latest-0c1j.onrender.com/",
         "description": "אפליקציית צ'אט בזמן אמת המאפשרת למשתמשים לתקשר באופן מיידי באמצעות חבילת MERN ו-websocket.io.",
         "tags": [
           "MongoDB",

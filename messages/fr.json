@@ -65,7 +65,7 @@
         "image": "/chatScreen.png",
         "title": "Application-de-Chat-en-Temps-Réel",
         "code": "https://github.com/the-best-students/Realtime-Chat-App",
-        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "live": "https://chat-app-latest-0c1j.onrender.com/",
         "description": "Une application de chat en temps réel qui permet aux utilisateurs de communiquer instantanément en utilisant la pile MERN et websocket.io.",
         "tags": [
           "MongoDB",

@@ -55,7 +55,7 @@
         "image": "/chatScreen.png",
         "title": "Приложение-для-чата-в-реальном-времени",
         "code": "https://github.com/the-best-students/Realtime-Chat-App",
-        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "live": "https://chat-app-latest-0c1j.onrender.com/",
         "description": "Приложение для чата в реальном времени, которое позволяет пользователям мгновенно общаться, используя стек MERN и websocket.io.",
         "tags": [
           "MongoDB",

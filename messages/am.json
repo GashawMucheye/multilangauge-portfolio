@@ -66,7 +66,7 @@
         "image": "/chatScreen.png",
         "title": "የቅጽበት-ቻት-መተግበሪያ",
         "code": "https://github.com/the-best-students/Realtime-Chat-App",
-        "live": "https://the-best-students.github.io/Realtime-Chat-App/",
+        "live": "https://chat-app-latest-0c1j.onrender.com/",
         "description": "ተጠቃሚዎች MERN stack እና websocket.io በመጠቀም ወዲያውኑ እንዲገናኙ የሚያስችል የቅጽበት የቻት መተግበሪያ።",
         "tags": [
           "MongoDB",
