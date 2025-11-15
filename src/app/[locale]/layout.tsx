@@ -10,7 +10,12 @@ import { ThemeProvider } from 'next-themes';
 import { ScrollToTop } from '@/components/scroll-to-top';
 import { AccessibilityMenu } from '@/components/accessibility-menu';
 import { AccessibilityProvider } from '@/components/accessibility-provider';
-
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Gashawdev - Full Stack Developer Portfolio',
+  description:
+    'Portfolio website of Gashaw Mucheye, a professional Full Stack Developer.',
+};
 export default async function LocaleLayout({
   children,
   params,
