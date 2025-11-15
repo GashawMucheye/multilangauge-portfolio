@@ -1,11 +1,7 @@
-// import { content } from '@/lib/content';
-import type { Language } from '@/lib/types';
 import { CodeXml, Github, Linkedin } from 'lucide-react';
-import Link from 'next/link';
 import { Button } from './ui/button';
 import { useTranslations } from 'next-intl';
 
-// WhatsApp Icon component
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
@@ -19,29 +15,28 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-// interface FooterProps {
-//   language: Language;
-// }
-
 export default function Footer() {
   const t = useTranslations('footer');
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className='bg-secondary/50'>
-      <div className='container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row'>
-        {/* <div className='flex items-center gap-2'>
+    <footer className='bg-secondary/50 border-t border-secondary'>
+      <div className='container mx-auto flex flex-col items-center justify-between gap-6 px-4 py-8 md:flex-row md:gap-4'>
+        <div className='flex items-center gap-2 order-1 md:order-none'>
           <CodeXml className='h-6 w-6 text-accent' />
           <span className='font-bold font-headline'>GMDFOLIO</span>
-        </div> */}
-        <p className='text-sm text-muted-foreground text-center sm:text-left'>
-          &copy; {currentYear} ❤️GMDFOLIO. {t('copy')}
+        </div>
+
+        <p className='text-sm text-muted-foreground text-center order-3 md:order-none md:text-left mt-4 md:mt-0'>
+          &copy; {currentYear} ❤️**GMDFOLIO**. {t('copy')}
         </p>
-        <div className='flex items-center gap-2'>
+
+        <div className='flex items-center gap-4 order-2 md:order-none'>
           <Button variant='ghost' size='icon' asChild>
             <a
               href='https://github.com/GashawMucheye?tab=repositories'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='GitHub'
             >
               <Github className='h-5 w-5' />
@@ -51,6 +46,7 @@ export default function Footer() {
             <a
               href='https://www.linkedin.com/in/gashawmucheye'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='LinkedIn'
             >
               <Linkedin className='h-5 w-5' />
@@ -60,6 +56,7 @@ export default function Footer() {
             <a
               href='https://wa.me/your-whatsapp-number'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='WhatsApp'
               className='hover:text-[#25D366]'
             >
