@@ -20,7 +20,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className='bg-secondary/50 border-t border-secondary'>
+    <footer className='bg-secondary/50 border-t border-t-muted-foreground/10'>
       <div className='container mx-auto flex flex-col items-center justify-between gap-6 px-4 py-8 md:flex-row md:gap-4'>
         <div className='flex items-center gap-2 order-1 md:order-none'>
           <CodeXml className='h-6 w-6 text-accent' />
